@@ -1,0 +1,87 @@
+.head_viewdata {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.wrapper_viewdataroom {
+    max-width: 650px;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin: 0px auto;
+    padding: 0px 50px;
+}
+
+.form-control {
+    border-radius: 15px !important;
+}
+
+.warpper_button {
+    text-align: center;
+}
+
+.viewdata_submit {
+    margin-bottom: 15px;
+    padding: 5px 70px;
+    border: none;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F7951F;
+    border-radius: 15px;
+}
+
+.head_fontservice {
+    margin-top: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.wrapper_table {
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 13px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* .wrapper_table td{
+    text-align: center ;
+}
+
+.wrapper_table tr , .wrapper_table td, .wrapper_table th{
+    border-style:none !important;
+}
+
+.wrapper_table tr , .wrapper_table td {
+    padding-bottom: 15px !important;
+}
+
+.wrapper_table .btn-default, .btn-secondary:hover{
+    background-color: #F7951F !important;
+    border: none;
+}
+.wrapper_table:focus .btn-default:focus{
+    background-color: #F7951F !important;
+    border: none;
+}
+
+.wrapper_table .page-link{
+    color: #F7951F;
+}
+
+.wrapper_table .page-item.active .page-link{
+    background-color: #F7951F !important;
+    border: 1px solid #F7951F;
+} */
+
+
+@media (min-width: 1000px) {
+    .wrapper_dataroom {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .warpper_button {
+        grid-column-end: span 2;
+        text-align: center;
+    }
+}

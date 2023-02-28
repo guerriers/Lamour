@@ -1,0 +1,8 @@
+.wrapper_room{
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 25px;
+    justify-content: space-between;
+}

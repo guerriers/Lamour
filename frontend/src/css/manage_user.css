@@ -1,0 +1,36 @@
+.tbu_actions{
+    display: flex;
+    column-gap: 10px;
+}
+
+.eUeqdG{
+    font-weight: bolder;
+    color: #000000;
+}
+
+.TUEFO{
+    justify-content: flex-start !important;
+}
+
+.warpper_head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add_user{
+    background-color: #F7941D;
+    color: #ffffff;
+    height: 32px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    padding: 0 32px 0 16px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.add_user svg{
+    margin-right: 5px;
+}

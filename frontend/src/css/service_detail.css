@@ -1,0 +1,66 @@
+.wrapper_service_detail{
+    display: flex;
+    max-width: 80%;
+    justify-content: center;
+}
+
+.detail_img{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper_service_detail .img_service{
+    max-width: 40%;
+    margin-right: 30px;
+    padding: 20px;
+    background: #F4F4F4;
+    border-radius: 15px;
+}
+
+.wrapper_service_detail .img_service img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.wrapper_service_detail .wrapper_service_charge{
+    align-items: center;
+    padding: 20px 0px;
+    display: flex;
+
+}
+
+.wrapper_service_detail .wrapper_service_charge .wrapper_boxdata {
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 30px;
+}
+
+
+
+.wrapper_service_detail .wrapper_service_charge .wrapper_data {
+    padding: 0px 30px;
+    margin: 30px 0px;
+}
+
+.wrapper_service_detail .wrapper_service_charge .wrapper_servicedetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom:  2px solid rgba(0, 0, 0, 0.2);;
+}
+
+.wrapper_service_detail .wrapper_service_charge .servicedetail_check{
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.wrapper_service_detail .wrapper_service_charge .servicedetail_btn{
+    text-align: center;
+}
+
+.wrapper_service_detail .wrapper_service_charge .servicedetail_btn .button_submit{
+    margin-top: 20px;
+}

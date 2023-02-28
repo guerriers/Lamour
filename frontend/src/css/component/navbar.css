@@ -1,0 +1,18 @@
+.nav-link {
+    text-decoration: none;
+    color: aliceblue !important;
+}
+
+.active {
+    color: #F7951F !important;
+}
+
+.acc {
+    padding: .5rem 1rem;
+    cursor: pointer;
+    color: #F7951F;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100px;
+    white-space: nowrap;
+}

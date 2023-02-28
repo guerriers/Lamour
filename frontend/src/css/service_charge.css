@@ -1,0 +1,81 @@
+.wrapper_service_charge {
+    width: 846px;
+    height: auto;
+    background: #F4F4F4;
+    border-radius: 15px;
+
+}
+
+.head_service_charge{
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper_service{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 90px 30px 90px;
+    border-bottom:  2px solid rgba(0, 0, 0, 0.2);;
+}
+
+
+
+.wrapper_service_pay{
+    width: 846px;
+    height: auto;
+    
+}
+
+.wrapper_service_pay .wrapper_data{
+    background: #F4F4F4;
+    border-radius: 15px;
+}
+
+.wrapper_service_pay .account_number{
+    margin: 20px 0px;
+    padding: 10px 50px 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper_service_pay .box_bottom{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper_service_pay .account_number p{
+    margin: 10px 10px;
+}
+
+.wrapper_service_pay .sub_img{
+    min-width: 200px;
+    margin: 0px;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.box_upload{
+    display: flex;
+    align-items: center;
+}
+
+.box_upload p{
+    margin: 0px 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100px;
+    white-space: nowrap;
+}

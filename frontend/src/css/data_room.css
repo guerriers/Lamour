@@ -1,0 +1,60 @@
+.head_viewdata {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.wrapper_viewdataroom {
+    max-width: 650px;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin: 0px auto;
+    padding: 0px 50px;
+}
+
+.form-control,.form-select{
+    border-radius: 15px !important;
+}
+
+.warpper_button {
+    text-align: center;
+} 
+
+.viewdata_submit {
+    padding: 5px 70px;
+    border: none;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F7951F;
+    border-radius: 15px;
+} 
+
+.check{
+    margin-top: 25px;
+}
+
+.form-check-input:checked{
+    background-color: #00BB07 !important;
+    border-color: #00BB07 !important;
+}
+.no-arrow {
+    -moz-appearance: textfield;
+  }
+  .no-arrow::-webkit-inner-spin-button {
+    display: none;
+  }
+  .no-arrow::-webkit-outer-spin-button,
+  .no-arrow::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+@media (min-width: 1000px) {
+    .wrapper_dataroom {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .warpper_button {
+    grid-column-end: span 2;
+    text-align: center;
+} 
+}
